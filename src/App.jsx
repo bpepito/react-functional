@@ -31,7 +31,6 @@ export default class App extends Component {
   };
 
   handleDecrement = (id) => {
-    // this.state.count++;
     this.setState({
       counters: this.state.counters.map((counter) => {
         if (counter.id === id) {
