@@ -118,9 +118,7 @@ const App = () => {
           onIncrement={handleIncrement}
           onDecrement={handleDecrement}
           onDelete={handleDelete}
-        >
-          Hello
-        </Counters>
+        ></Counters>
       </div>
     </div>
   );

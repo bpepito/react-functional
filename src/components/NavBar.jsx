@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 // export default class NavBar extends Component {
 //   render() {
@@ -24,6 +24,6 @@ const NavBar = ({ totalCount }) => {
       </div>
     </nav>
   );
-}
+};
 
-export default NavBar
+export default NavBar;
